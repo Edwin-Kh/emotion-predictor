@@ -9,9 +9,6 @@ I used **Jupyter** to train and test the model using **Multinomial Naive Bayes**
 ## Objective
 The goal of this project was to familiarise myself with using git, convert my ML model into a functioning web app using Flask and deploying it on a cloud platform such as Heroku used in this project.
 
-The app is deployed on Heroku and can be accessed through the URL below; </br>
-URL: https://emotion-predictor-523cbe9b30ff.herokuapp.com/
-
 ## The dataset used in this project can be found below.
 Dataset Title: _Emotions_ by _NIDULA ELGIRIYEWITHANA_
 URL: https://www.kaggle.com/datasets/nelgiriyewithana/emotions/data
