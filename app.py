@@ -12,16 +12,10 @@ naive_bayes_model = joblib.load('trained_model.joblib')
 # Initialize TF-IDF vectorizer
 tfidf_vectorizer = joblib.load('tfidf_vectorizer.joblib')
 
-# Function to preprocess text
-def preprocess_text(text):
-
-    # Return the preprocessed text
-    return text
-
 # Function to predict emotion
 def predict_emotion(message):
     # Preprocess the input message
-    preprocessed_message = preprocess_text(message)
+    preprocessed_message = message
 
     # Vectorize the preprocessed message
     vectorized_message = tfidf_vectorizer.transform([preprocessed_message])
