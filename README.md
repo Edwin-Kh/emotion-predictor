@@ -4,11 +4,15 @@ URL hosted by Render: https://emotion-predictor-2nhy.onrender.com
 
 ## Description
 
-This is a personal project that uses a dataset from **Kaggle** to create a machine learning model that is used as the basis of a text message emotion predictor. Although this is not my first project creating a ML model, it is my first project using Flask to utilise the model.
+This is a personal project that uses a dataset from **Kaggle** to create a machine learning model that is used as the basis of a text message emotion predictor.
+
+> Although this is not my first project creating a ML model, it is my first project using Flask to utilise the model.
 
 ## Tech Stack
 
-I used **Jupyter** to train and test the model using **Multinomial Naive Bayes** and **Flask** in **Python** to create the web app.
+Language : ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+Hosted On : ![Render](https://img.shields.io/badge/Render-%46E3B7.svg?style=for-the-badge&logo=render&logoColor=white)
+Framework : ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white)
 
 ## Objective
 
